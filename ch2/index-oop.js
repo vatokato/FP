@@ -1,8 +1,8 @@
 const Student = require("./Student");
-const data = require('./data');
+const data = require('../data');
 
 const students = data.students.map(
-  student => new Student(student.name, student.lastName, student.country, student.school)
+  student => new Student(student.name, student.lastname, student.country, student.school)
 );
 
 students.forEach(student => {

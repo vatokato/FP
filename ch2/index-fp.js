@@ -1,4 +1,4 @@
-const data = require('./data');
+const data = require('../data');
 
 const selector = (country, school) => student => (
   student.country === country && student.school === school
